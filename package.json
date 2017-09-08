@@ -27,7 +27,7 @@
         "node": ">= 4"
     },
     "config": {
-        "post_per_page":10
+        "posts_per_page":10
     },
     "license": "MIT"
 }
