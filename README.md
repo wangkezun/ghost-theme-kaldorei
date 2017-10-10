@@ -38,16 +38,15 @@ A Simple And Elegant Ghost Theme Derive From Default Theme Casper
 
 - [ ] 推荐文章置顶
 
-- [ ] 文章回复数统计
-
-- [ ] 尝试让`markdown`支持更多功能
-
 ## How to use
 
 ### 统计
 Kaldorei使用了ghost的api来做统计，所以需要开启ghost的实验室中的`Public API`功能。
 
 > 方法：ghost后台 > `labs` > `Enable Beta Features` > `勾选 Public API`
+
+### 图片幻灯片
+Kaldorei集成了fancyBox，支持图片暗箱效果、幻灯片轮播、全屏预览、缩略图预览等功能。预览&使用方法[图片预览](http://xlbd.me/how-to-use-fancybox-in-ghost-blog/)
 
 ### 开启Disqus
 Kaldorei支持Disqus讨论插件，只需在后台`代码注入`处添加一段代码。
@@ -71,9 +70,9 @@ Kaldorei提供了简单的归档功能，使用ghost的api来生成归档，预�
 
 ## About ghost helpers
 
-Kaldorei用两种方法实现了标签云，方法参见[我的博客](http://xlbd.me)。
+Kaldorei用两种方法实现了标签云，方法参见[我的博客](http://xlbd.me/how-to-add-the-tag-cloud-into-ghost-blog/)。
 
-Kaldorei优化了发布文章的时间展示，并汉化为中文，需要修改时间(date)助手，方法参见[我的博客](http://xlbd.me)。
+Kaldorei优化了发布文章的时间展示，并汉化为中文，需要修改时间(date)助手，方法参见[我的博客](http://xlbd.me/ghost-date-i18n/)。
 
 ## Credit
 
